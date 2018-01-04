@@ -73,7 +73,7 @@ enum Baudrate{
 private:
   HardwareSerial* _eDispSerial;
   int _bg_buffer_num;
-  char buf[64];
+  char buf[256];
 };
 
 #endif
