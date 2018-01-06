@@ -10,7 +10,6 @@ eDisp::eDisp()
 void eDisp::begin(HardwareSerial* eDispSerial)
 {
   _eDispSerial = eDispSerial;
-  _eDispSerial->begin(9600);
 }
 
 void eDisp::cls()
